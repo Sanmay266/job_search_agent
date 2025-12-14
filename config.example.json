@@ -1,0 +1,63 @@
+{
+  "user_profile": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "phone": "+1-555-0123",
+    "location": "San Francisco, CA",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "portfolio": "https://yourportfolio.com",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "AWS",
+      "Docker",
+      "React",
+      "Node.js",
+      "Git"
+    ],
+    "resume": {
+      "experience": [
+        {
+          "company": "Tech Company",
+          "title": "Software Engineer",
+          "duration": "2020 - Present",
+          "achievements": [
+            "Developed scalable microservices using Python and FastAPI",
+            "Reduced API response time by 40% through optimization",
+            "Led team of 3 engineers on critical project delivery"
+          ]
+        },
+        {
+          "company": "Startup Inc",
+          "title": "Junior Developer",
+          "duration": "2018 - 2020",
+          "achievements": [
+            "Built responsive web applications using React and Node.js",
+            "Implemented CI/CD pipeline reducing deployment time by 60%"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Bachelor of Science in Computer Science",
+          "institution": "University Name",
+          "year": "2018"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Developer",
+          "issuer": "Amazon Web Services",
+          "year": "2022"
+        }
+      ]
+    }
+  },
+  "preferences": {
+    "job_types": ["full-time", "contract"],
+    "locations": ["San Francisco", "Remote"],
+    "min_salary": 100000,
+    "industries": ["Technology", "Finance", "Healthcare"]
+  }
+}

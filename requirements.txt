@@ -1,0 +1,22 @@
+# Core dependencies
+python-dateutil>=2.8.2
+
+# Optional: For future API integrations
+# requests>=2.31.0
+# beautifulsoup4>=4.12.0
+
+# Optional: For data persistence
+# sqlalchemy>=2.0.0
+
+# Optional: For web interface
+# flask>=3.0.0
+# fastapi>=0.104.0
+
+# Optional: For AI-powered features
+# openai>=1.0.0
+# anthropic>=0.7.0
+
+# Development dependencies
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.1.0
