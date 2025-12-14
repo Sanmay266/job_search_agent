@@ -54,29 +54,6 @@ See `examples/demo.py` for complete usage examples including:
 - Cover letter generation
 - Follow-up messages
 
-## Configuration
-
-Create a `config.json` file based on `config.example.json`:
-
-```json
-{
-  "user_profile": {
-    "name": "Your Name",
-    "email": "your.email@example.com",
-    "skills": ["Python", "JavaScript", "SQL"],
-    "resume": { ... }
-  }
-}
-```
-
-## Roadmap
-
-- [ ] Integration with job board APIs (LinkedIn, Indeed, Glassdoor)
-- [ ] Web interface for easier interaction
-- [ ] Database persistence for application tracking
-- [ ] Email automation for sending applications
-- [ ] Interview preparation assistance
-- [ ] Salary negotiation guidance
 
 ## Contributing
 
