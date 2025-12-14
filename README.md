@@ -45,51 +45,6 @@ cp config.example.json config.json
 # Edit config.json with your information
 ```
 
-## Quick Start
-
-```python
-from agents.job_search_agent import JobSearchAgent, JobOpportunity
-
-# Set up your profile
-user_profile = {
-    'name': 'Your Name',
-    'email': 'your.email@example.com',
-    'skills': ['Python', 'JavaScript', 'SQL', 'AWS'],
-    'experience': [
-        {
-            'company': 'Tech Corp',
-            'title': 'Software Engineer',
-            'duration': '2020-2023',
-            'achievements': [
-                'Built scalable APIs using Python and FastAPI',
-                'Reduced database query time by 40%'
-            ]
-        }
-    ]
-}
-
-# Initialize the agent
-agent = JobSearchAgent(user_profile)
-
-# Create a job opportunity
-job = JobOpportunity(
-    job_id='123',
-    title='Senior Python Developer',
-    company='Amazing Tech Co',
-    description='Looking for a Python developer with 3+ years experience...',
-    requirements=['Python', 'AWS', 'SQL']
-)
-
-# Evaluate the job fit
-result = agent.evaluate_job_fit(job)
-print(f"Match Score: {result.match_score:.0%}")
-print(f"Matched Skills: {result.matched_skills}")
-
-# Prepare application materials
-application = agent.prepare_application(job, result)
-print(application['cover_letter'])
-```
-
 ## Usage Examples
 
 See `examples/demo.py` for complete usage examples including:
